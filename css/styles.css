@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,700&display=swap");
+
+* {
+  font-family: "Raleway";
+}
+
+body {
+}
+
+.divmasinterno {
+  height: 100px;
+  width: 100px;
+  border: 2px solid red;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  border: 1px solid pink;
+  font-weight: 600;
+}
+
+p {
+  background-color: red;
+  padding: 1em;
+  font-weight: 300;
+}
+
+/* ... 1000 lineas despues */
+
+.divmasinterno {
+  height: 100px;
+  width: 100px;
+  border: 2px solid purple;
+}
+
+#divmediointerno {
+  height: 300px;
+  width: 300px;
+  border: 5px solid papayawhip;
+}
+
+.espaciolargo {
+  height: 2000px;
+}
+
+.header {
+  background-color: brown;
+}
+
+.header:hover {
+  background-color: green;
+}
+
+/* body div div div div div#wrapper header#header {
+  background-color: blue;
+}
+div#wrapper header#header {
+  background-color: yellow;
+}
+
+body div div div div div#wrapper header#header:hover {
+  background-color: pink;
+} */
+
+.portafolio {
+  color: blue;
+}
+
+ul.listasinpunto {
+  list-style-type: none;
+}
